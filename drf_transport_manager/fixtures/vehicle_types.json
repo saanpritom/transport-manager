@@ -1,0 +1,66 @@
+[
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 1,
+    "fields": {
+      "type_name": "Truck",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 2,
+    "fields": {
+      "type_name": "Mini Truck",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 3,
+    "fields": {
+      "type_name": "Pick Up",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 4,
+    "fields": {
+      "type_name": "Cavard Van",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 5,
+    "fields": {
+      "type_name": "Van",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 6,
+    "fields": {
+      "type_name": "Bus",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 7,
+    "fields": {
+      "type_name": "Coster",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleType",
+    "pk": 8,
+    "fields": {
+      "type_name": "Micro Bus",
+      "created_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  }
+]

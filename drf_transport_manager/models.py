@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-from . import config
+from .configs import get_media_directory
 
 
 # Create your models here.
@@ -42,7 +42,7 @@ class VehicleManufacturer(models.Model):
     email = models.EmailField(max_length=254, null=True, blank=True, verbose_name='Email')
     contact_number = models.CharField(max_length=50, null=True, blank=True, verbose_name='Contact Number')
     address = models.TextField(null=True, blank=True, verbose_name='Address')
-    logo = models.ImageField(upload_to=config.get_media_directory('drf_transport_manager_images/manufacturer_logo/'),
+    logo = models.ImageField(upload_to=get_media_directory('drf_transport_manager_images/manufacturer_logo/'),
                              null=True, blank=True, verbose_name='Manufacturer Logo')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(User, related_name='vehicle_manufacturers', on_delete=models.CASCADE, null=False,

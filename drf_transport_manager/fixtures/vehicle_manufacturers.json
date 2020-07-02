@@ -1,0 +1,146 @@
+[
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 1,
+    "fields": {
+      "manufacturer_name": "Volvo",
+      "country_of_origin": "Sweden",
+      "website_url": "https://www.volvo.com/",
+      "email": "",
+      "contact_number": "0046313250077",
+      "address": "",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/volvo.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 2,
+    "fields": {
+      "manufacturer_name": "Scania",
+      "country_of_origin": "Sweden",
+      "website_url": "https://www.scania.com/",
+      "email": "",
+      "contact_number": "460855381000",
+      "address": "Scania AB (publ), SE-151 87 Södertälje, Sweden",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/scania.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 3,
+    "fields": {
+      "manufacturer_name": "Mercedes",
+      "country_of_origin": "Germany",
+      "website_url": "https://cac.mercedes-benz.com/",
+      "email": "",
+      "contact_number": "0080097777777",
+      "address": "Stuttgart, Germany",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/mercedes.jpg",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 4,
+    "fields": {
+      "manufacturer_name": "DAF",
+      "country_of_origin": "The Netherlands",
+      "website_url": "https://www.daf.com/",
+      "email": "info@daftrucks.com",
+      "contact_number": "310402149111",
+      "address": "P.O. Box 90066, 5600 PV Eindhoven, The Netherlands",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/daf.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 5,
+    "fields": {
+      "manufacturer_name": "Iveco",
+      "country_of_origin": "Italy",
+      "website_url": "https://www.iveco.com/",
+      "email": "",
+      "contact_number": "",
+      "address": "Via Puglia 35, 10156, Turin, Italy",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/iveco.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 6,
+    "fields": {
+      "manufacturer_name": "Renault",
+      "country_of_origin": "France",
+      "website_url": "https://www.renault.co.uk/",
+      "email": "",
+      "contact_number": "03443350000",
+      "address": "The Rivers Office Park, Denham Way, Maple Cross, Rickmansworth WD3 9YS",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/renault.jpg",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 7,
+    "fields": {
+      "manufacturer_name": "Tata",
+      "country_of_origin": "India",
+      "website_url": "https://www.tatamotors.com/",
+      "email": "cac@tatamotors.com",
+      "contact_number": "02262407101",
+      "address": "4th Floor, Ahura Centre, 82 Mahakali Caves Road, MIDC, Andheri East, Mumbai - 400093",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/tata.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 8,
+    "fields": {
+      "manufacturer_name": "Ashok Leyland",
+      "country_of_origin": "India",
+      "website_url": "https://www.ashokleyland.com/",
+      "email": "reachus@ashokleyland.com",
+      "contact_number": "04422206000",
+      "address": "Ashok Leyland Ltd.,No.1, Sardar Patel Road, Guindy, Chennai - 600 032, India.",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/ashok_leyland.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleManufacturer",
+    "pk": 9,
+    "fields": {
+      "manufacturer_name": "Eicher",
+      "country_of_origin": "India",
+      "website_url": "https://www.eichertrucksandbuses.com/",
+      "email": "",
+      "contact_number": "18001023531",
+      "address": "Eicher Trucks & Buses, #96, Sector-32, Gurgaon-122001, Haryana, India",
+      "logo": "/media/drf_transport_manager_images/manufacturer_logo/eicher.png",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  }
+]

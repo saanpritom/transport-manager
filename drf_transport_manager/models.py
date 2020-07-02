@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 # Create your models here.
@@ -11,7 +12,10 @@ from django.db import models
 class VehicleType(models.Model):
     type_name = models.CharField(max_length=50, null=False, blank=False, verbose_name='Type Name')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
+    created_by = models.ForeignKey(User, related_name='vehicle_types', on_delete=models.CASCADE, null=False,
+                                   verbose_name='Created by', default=1)
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
+    updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
     def __str__(self):
         return self.type_name

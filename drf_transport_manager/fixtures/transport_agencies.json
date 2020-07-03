@@ -1,0 +1,56 @@
+[
+  {
+    "model": "drf_transport_manager.TransportAgencyModel",
+    "pk": 1,
+    "fields": {
+      "agency_name": "N/A",
+      "contact_person": "N/A",
+      "website_url": "https://www.volvo.com/",
+      "email": "",
+      "contact_number": "",
+      "address": "",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.TransportAgencyModel",
+    "pk": 2,
+    "fields": {
+      "agency_name": "Test Agency One",
+      "contact_person": "Test Contact Person One",
+      "website_url": "https://testagencyone.com",
+      "email": "info@testagencyone.com",
+      "contact_number": "01111111111",
+      "address": "Test Agency One Address",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.TransportAgencyModel",
+    "pk": 3,
+    "fields": {
+      "agency_name": "Test Agency Two",
+      "contact_person": "Test Contact Person Two",
+      "website_url": "https://testagencytwo.com",
+      "email": "info@testagencytwo.com",
+      "contact_number": "02222222222",
+      "address": "Test Agency Two Address",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleTypeModel",
+    "pk": 4,
+    "fields": {
+      "type_name": "Cavard Van",
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  }
+]

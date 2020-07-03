@@ -1,6 +1,6 @@
 [
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 1,
     "fields": {
       "type_name": "Truck",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 2,
     "fields": {
       "type_name": "Mini Truck",
@@ -18,7 +18,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 3,
     "fields": {
       "type_name": "Pick Up",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 4,
     "fields": {
       "type_name": "Cavard Van",
@@ -36,7 +36,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 5,
     "fields": {
       "type_name": "Van",
@@ -45,7 +45,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 6,
     "fields": {
       "type_name": "Bus",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 7,
     "fields": {
       "type_name": "Coster",
@@ -63,7 +63,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleType",
+    "model": "drf_transport_manager.VehicleTypeModel",
     "pk": 8,
     "fields": {
       "type_name": "Micro Bus",

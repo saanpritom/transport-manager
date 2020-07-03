@@ -1,6 +1,6 @@
 [
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 1,
     "fields": {
       "manufacturer_name": "Volvo",
@@ -16,7 +16,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 2,
     "fields": {
       "manufacturer_name": "Scania",
@@ -32,7 +32,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 3,
     "fields": {
       "manufacturer_name": "Mercedes",
@@ -48,7 +48,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 4,
     "fields": {
       "manufacturer_name": "DAF",
@@ -64,7 +64,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 5,
     "fields": {
       "manufacturer_name": "Iveco",
@@ -80,7 +80,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 6,
     "fields": {
       "manufacturer_name": "Renault",
@@ -96,7 +96,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 7,
     "fields": {
       "manufacturer_name": "Tata",
@@ -112,7 +112,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 8,
     "fields": {
       "manufacturer_name": "Ashok Leyland",
@@ -128,7 +128,7 @@
     }
   },
   {
-    "model": "drf_transport_manager.VehicleManufacturer",
+    "model": "drf_transport_manager.VehicleManufacturerModel",
     "pk": 9,
     "fields": {
       "manufacturer_name": "Eicher",

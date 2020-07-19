@@ -101,8 +101,8 @@ class VehicleStaffModel(models.Model):
         ('Supervisor', 'Supervisor'),
     ]
     staff_name = models.CharField(max_length=80, null=False, blank=False, verbose_name='Staff Name')
-    agency_name = models.ForeignKey(TransportAgencyModel, related_name='transport_agency_driver', on_delete=models.CASCADE,
-                                    null=False, verbose_name='Agency Name', default=1)
+    agency = models.ForeignKey(TransportAgencyModel, related_name='transport_agency_staff', on_delete=models.CASCADE,
+                               null=False, verbose_name='Agency Name', default=1)
     staff_position = models.CharField(max_length=80, choices=STAFF_POSITION_CHOICES, default='Driver',
                                       verbose_name='Staff Position')
     email = models.EmailField(max_length=254, null=True, blank=True, verbose_name='Email')

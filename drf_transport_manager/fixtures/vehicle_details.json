@@ -1,0 +1,74 @@
+[
+  {
+    "model": "drf_transport_manager.VehicleDetailModel",
+    "pk": 1,
+    "fields": {
+      "registration_number": "Dhaka Metro-MA 14-0029",
+      "chasis_number": "CH3478876378",
+      "type": 1,
+      "manufacturer": 1,
+      "agency": 1,
+      "color": "Silver Grey",
+      "driver": 1,
+      "assistant": 2,
+      "capacity": "30 TON",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleDetailModel",
+    "pk": 2,
+    "fields": {
+      "registration_number": "Dhaka Metro-MA 14-0030",
+      "chasis_number": "CH3478876380",
+      "type": 1,
+      "manufacturer": 2,
+      "agency": 2,
+      "color": "Black",
+      "driver": 3,
+      "assistant": 4,
+      "capacity": "20 TON",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleDetailModel",
+    "pk": 3,
+    "fields": {
+      "registration_number": "Chittagong Metro-MA 14-0030",
+      "chasis_number": "CH3478876382",
+      "type": 1,
+      "manufacturer": 3,
+      "agency": 2,
+      "color": "Yellow",
+      "driver": 3,
+      "assistant": 4,
+      "capacity": "15 TON",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleDetailModel",
+    "pk": 4,
+    "fields": {
+      "registration_number": "Sylhet Metro-MA 14-0030",
+      "chasis_number": "CH3478876384",
+      "type": 1,
+      "manufacturer": 4,
+      "agency": 2,
+      "color": "Yellow",
+      "driver": 4,
+      "assistant": 4,
+      "capacity": "15 TON",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  }
+]

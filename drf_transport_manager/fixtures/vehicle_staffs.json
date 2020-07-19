@@ -1,0 +1,66 @@
+[
+  {
+    "model": "drf_transport_manager.VehicleStaffModel",
+    "pk": 1,
+    "fields": {
+      "staff_name": "Md. Abdur Rahim",
+      "agency": 1,
+      "staff_position": "Driver",
+      "email": "abdur_rahim@gmail.com",
+      "contact_number": "01823434356",
+      "license_number": "BD23409887",
+      "address": "Gabtoli, Mirpur, Dhaka",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleStaffModel",
+    "pk": 2,
+    "fields": {
+      "staff_name": "Md. Salehuddin Ahmed",
+      "agency": 1,
+      "staff_position": "Assistant",
+      "email": "saleh2435@gmail.com",
+      "contact_number": "01823434357",
+      "license_number": "BD23409888",
+      "address": "Gabtoli, Mirpur, Dhaka",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleStaffModel",
+    "pk": 3,
+    "fields": {
+      "staff_name": "Sanwar Alam",
+      "agency": 2,
+      "staff_position": "Supervisor",
+      "email": "sanwar45@gmail.com",
+      "contact_number": "01823434351",
+      "license_number": "",
+      "address": "Ullahpara, Sirajganj",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  },
+  {
+    "model": "drf_transport_manager.VehicleStaffModel",
+    "pk": 4,
+    "fields": {
+      "staff_name": "Bikash Saha",
+      "agency": 2,
+      "staff_position": "Driver",
+      "email": "saha_bikash@yahoo.com",
+      "contact_number": "01823434352",
+      "license_number": "",
+      "address": "Rajpara, Rajshahi",
+      "created_by": 1,
+      "created_at": "2020-07-1 14:44:59.193982-04:00",
+      "updated_at": "2020-07-1 14:44:59.193982-04:00"
+    }
+  }
+]

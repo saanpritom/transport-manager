@@ -3,6 +3,8 @@
    kind of property. If you need to change anything then change it carefully"""
 
 from django.conf import settings
+from django.contrib.auth import get_user_model
+from django.db.models import Q
 from django.core.exceptions import ValidationError
 
 
@@ -25,3 +27,19 @@ def get_media_directory(file_location):
             raise ValidationError('File location cannot be an absolute path. Remove / from first character')
     else:
         raise ValidationError('File location argument cannot be empty')
+
+
+# Return the default User ID of the system
+def get_default_user_id():
+    # Check if there is superuser, If True then return the ID of the Superuser
+    if get_user_model().objects.filter(Q(is_superuser=True) and Q(is_active=True)).exists():
+        return get_user_model().objects.filter(Q(is_superuser=True) and Q(is_active=True)).first().id
+    # If superuser not existed then check if staff user exists and send it's id
+    elif get_user_model().objects.filter(Q(is_staff=True) and Q(is_active=True)).exists():
+        return get_user_model().objects.filter(Q(is_staff=True) and Q(is_active=True)).first().id
+    # If no staff user exists then simply return the first user id
+    elif get_user_model().objects.filter(is_active=True).exists():
+        return get_user_model().objects.filter(is_active=True).first().id
+    # If nothing existed then just return 1
+    else:
+        return 1

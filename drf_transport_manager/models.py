@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth import get_user_model
-from .configs import get_media_directory
+from .configs import (get_media_directory, get_default_user_id)
 
 
 # Create your models here.
@@ -14,7 +14,7 @@ class VehicleTypeModel(models.Model):
     type_name = models.CharField(max_length=50, null=False, blank=False, verbose_name='Type Name')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(get_user_model(), related_name='vehicle_types_creator', on_delete=models.CASCADE, null=False,
-                                   verbose_name='Created by', default=1)
+                                   verbose_name='Created by', default=get_default_user_id())
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
@@ -46,7 +46,7 @@ class VehicleManufacturerModel(models.Model):
                              null=True, blank=True, verbose_name='Manufacturer Logo')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(get_user_model(), related_name='vehicle_manufacturer_creator', on_delete=models.CASCADE, null=False,
-                                   verbose_name='Created by', default=1)
+                                   verbose_name='Created by', default=get_default_user_id())
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
@@ -76,7 +76,7 @@ class TransportAgencyModel(models.Model):
     address = models.TextField(null=True, blank=True, verbose_name='Address')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(get_user_model(), related_name='transport_agency_creator', on_delete=models.CASCADE, null=False,
-                                   verbose_name='Created by', default=1)
+                                   verbose_name='Created by', default=get_default_user_id())
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
@@ -113,7 +113,7 @@ class VehicleStaffModel(models.Model):
                               null=True, blank=True, verbose_name='Driver Image')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(get_user_model(), related_name='transport_driver_creator', on_delete=models.CASCADE, null=False,
-                                   verbose_name='Created by', default=1)
+                                   verbose_name='Created by', default=get_default_user_id())
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
@@ -150,7 +150,7 @@ class VehicleDetailModel(models.Model):
                               null=True, blank=True, verbose_name='Vehicle Image')
     is_active = models.BooleanField(default=True, verbose_name='Is Active')
     created_by = models.ForeignKey(get_user_model(), related_name='vehicle_detail_creator', on_delete=models.CASCADE, null=False,
-                                   verbose_name='Created by', default=1)
+                                   verbose_name='Created by', default=get_default_user_id())
     created_at = models.DateTimeField(auto_now_add=True, verbose_name='Created at')
     updated_at = models.DateTimeField(auto_now=True, verbose_name='Updated at')
 
